@@ -23,7 +23,7 @@ Puedes explorar el código fuente del proyecto en la carpeta [src](src/). Ademá
 
 ## Instrucciones de Uso
 
-1. Clona el repositorio: `git clone https://github.com/TuUsuario/NombreDelRepositorio.git`
+1. Clona el repositorio: `git clone https://github.com/nachova1/Ejercicio-Final-curso-SpringBoot.git`
 2. Abre el proyecto en tu entorno de desarrollo preferido.
 3. Realiza las configuraciones necesarias.
 4. Ejecuta la aplicación y explora las funcionalidades implementadas.
