@@ -4,7 +4,6 @@
  */
 package com.APIVentas.demo.dto;
 
-import com.APIVentas.demo.models.Producto;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Data;

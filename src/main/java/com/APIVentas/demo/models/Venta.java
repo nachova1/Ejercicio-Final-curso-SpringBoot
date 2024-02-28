@@ -37,9 +37,6 @@ public class Venta {
     private LocalDate fecha_venta;
     private Double total;
     
-    /*@OneToMany(mappedBy = "venta", cascade = CascadeType.ALL)
-    private List<Producto> listaProductos;*/
-    
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name = "venta_producto",
                joinColumns = @JoinColumn(name = "codigo_venta"),

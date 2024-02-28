@@ -12,23 +12,23 @@ import org.springframework.http.HttpStatus;
  * @author Admin
  */
 @Getter
-public class MiException extends Exception{
-	
-	private static final long serialVersionUID = 1L;
-	private final String mensaje;
+public class MiException extends Exception {
+
+    private static final long serialVersionUID = 1L;
+    private final String mensaje;
     private final HttpStatus status;
 
     public MiException(String mensaje, HttpStatus status) {
         super(mensaje);
-        this.mensaje= mensaje;
+        this.mensaje = mensaje;
         this.status = status;
     }
 
     public MiException(String mensaje) {
         super(mensaje);
-        this.mensaje= mensaje;
-		this.status = null;
-        
+        this.mensaje = mensaje;
+        this.status = null;
+
     }
-    
+
 }
