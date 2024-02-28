@@ -12,6 +12,7 @@ Durante este emocionante viaje de aprendizaje, he creado una API completa para a
 - Relaciones entre clases: NaN entre Producto-Venta (con una tabla intermedia) y 1aN entre Cliente-Venta.
 - Sistema de actualización y control de Stock para garantizar una gestión eficiente de las cantidades disponibles de cada producto.
 - Prevención de ventas cuando el Stock no lo permite.
+- Todos los endpoints fueron probados con Postman.
 
 ## Agradecimientos
 
